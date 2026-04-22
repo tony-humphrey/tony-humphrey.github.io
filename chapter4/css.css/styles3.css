@@ -1,0 +1,76 @@
+/*
+  Name: [Your Name]
+  Date: March 23, 2026
+  File Name: styles.css
+*/
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body Styles */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header h1 {
+    text-align: center; /* Task 1i: Corrected alignment */
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block; /* Task 1j: Display as inline-block */
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* Task 2a: Remove underline */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    overflow: auto; /* Task 1k: Set overflow to auto */
+}
+
+/* Task 1l: Adjust widths to fit horizontally (33% each) */
+#css1, #css2, #css3 {
+    width: 30%; 
+    float: left;
+    margin: 1%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Task 2b: Style rules for anchors in main */
+main a {
+    color: #47476b;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+    clear: left; /* Task 1m: Clear the float */
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
